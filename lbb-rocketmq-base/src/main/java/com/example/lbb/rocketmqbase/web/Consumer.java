@@ -22,7 +22,7 @@ public class Consumer {
     @RequestMapping("/pushSMS")
     public void pushSMS() {
 
-        MQFactory factory = new MQFactory("insurance_bacth", "192.168.192.120:9876");
+        MQFactory factory = new MQFactory("top2", "192.168.192.120:9876");
         MQReceive recive = new MQReceive();
         recive.setTopic("TestTopic1");
         recive.setType(MQEnums.RECEIVE_TYPE.DEFAULT);
@@ -44,7 +44,7 @@ public class Consumer {
     @RequestMapping("/pushSMSBatch")
     public void pushSMSBatch() {
 
-        MQFactory factory = new MQFactory("insurance_con", "192.168.192.120:9876");
+        MQFactory factory = new MQFactory("top2", "192.168.192.120:9876");
         MQReceive recive = new MQReceive();
         recive.setTopic("dealEndorseTaskBatch");
         recive.setType(MQEnums.RECEIVE_TYPE.DEFAULT);
@@ -70,7 +70,7 @@ public class Consumer {
     @RequestMapping("/pushSMSOdery")
     public void pushSMSOdery() {
 
-        MQFactory factory = new MQFactory("insurance_con", "192.168.192.120:9876");
+        MQFactory factory = new MQFactory("top4", "192.168.192.120:9876");
         MQReceive recive = new MQReceive();
         recive.setTopic("dealEndorseTask");
         recive.setType(MQEnums.RECEIVE_TYPE.ORDERLY);

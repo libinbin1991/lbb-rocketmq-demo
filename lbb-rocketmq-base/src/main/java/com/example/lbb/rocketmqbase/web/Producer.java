@@ -17,7 +17,7 @@ public class Producer {
 
     @GetMapping("/sendSMS")
     public void sendSMS() {
-        MQFactory factory = new MQFactory("insurance", "192.168.192.120:9876");
+        MQFactory factory = new MQFactory("top1", "192.168.192.120:9876");
         MQSend send = new MQSend();
         send.setTopic("TestTopic1");
         send.setMsgBody("This is a message~balalala");

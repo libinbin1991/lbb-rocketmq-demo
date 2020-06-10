@@ -1,5 +1,5 @@
 package com.example.lbb.rocketmqbase.producer;/*
-package com.sinosig.xb.insurance.rocketmq.producer;
+
 
 import org.apache.rocketmq.client.producer.LocalTransactionExecuter;
 import org.apache.rocketmq.client.producer.LocalTransactionState;

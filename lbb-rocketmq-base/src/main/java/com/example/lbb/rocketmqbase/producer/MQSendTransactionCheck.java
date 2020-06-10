@@ -1,8 +1,4 @@
 package com.example.lbb.rocketmqbase.producer;/*
-package com.sinosig.xb.insurance.rocketmq.producer;
-
-
-import com.sinosig.xb.insurance.rocketmq.utils.MQEnums;
 import org.apache.rocketmq.client.producer.LocalTransactionState;
 import org.apache.rocketmq.client.producer.TransactionCheckListener;
 import org.apache.rocketmq.common.message.MessageExt;
