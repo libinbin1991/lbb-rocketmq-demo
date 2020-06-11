@@ -1,0 +1,11 @@
+applicationName: amily
+server:
+  port: 8011
+# NameServer地址 用;作为地址的分隔符
+rocketmq:
+  namesrvAddr: 192.168.192.120:9876
+# 生产者的组名
+  producerId: product-test
+
+
+
